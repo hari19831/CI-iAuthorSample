@@ -3,6 +3,7 @@ var assert = require('assert'),
     expect = require('chai').expect;
 
 
+var checkhook;
 var answer;
 var user = {
     name: 'tj',
